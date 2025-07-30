@@ -1,0 +1,37 @@
+/* Responsive */
+@media (max-width: 768px) {
+    .legend-items {
+        grid-template-columns: 1fr;
+    }
+    
+    .legend-title {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .sponsors-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    .sponsor-logo {
+        max-height: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sponsors-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        background-attachment: scroll; /* Elimina efecto parallax en móviles */
+        padding: 3rem 1rem;
+        height: auto;
+        min-height: 300px;
+    }
+}

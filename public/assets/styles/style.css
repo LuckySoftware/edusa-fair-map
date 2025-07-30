@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Public Sans', sans-serif;
     text-decoration: none;
 }
 
@@ -20,26 +20,49 @@ body {
 }
 
 /* Header */
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.3));
+    z-index: 1;
+}
+
+header .container {
+    position: relative;
+    z-index: 2;
+}
+
 header {
-    background: linear-gradient(135deg,  #FFFFFF, #3C3B6E, #B22234);
-    color: white;
+    background: url('/public/assets/images/bg.jpeg') no-repeat center;
+    background-size: cover;
+    height: 600px; /* Altura fija para el banner */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    padding: 2rem 0;
     margin-bottom: 2rem;
-    border-radius: 0 0 10px 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
 }
 
 header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
+    color: #BF0A30;
+    text-shadow: 1px 1px 1px white;
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
 }
 
 header p {
-    font-size: 1.1rem;
-    opacity: 0.9;
+    color: #BF0A30;
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px white;
 }
-
 /* Contenedor del mapa */
 .map-container {
     background-color: white;
@@ -173,13 +196,45 @@ footer {
     border-top: 1px solid #eee;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-    .legend-items {
-        grid-template-columns: 1fr;
-    }
-    
-    .legend-title {
-        font-size: 1.3rem;
-    }
+/* Estilos para la sección de sponsors */
+.sponsors-section {
+    padding: 30px 0;
+    margin-bottom: 20px;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
 }
+
+.sponsors-title {
+    text-align: center;
+    color: #555;
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+.sponsors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 30px;
+    align-items: center;
+    justify-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.sponsor-logo {
+    max-width: 100%;
+    height: auto;
+    max-height: 80px;
+    width: auto;
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+
+.sponsor-logo:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: scale(1.05);
+}
+

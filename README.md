@@ -1,0 +1,1 @@
+# edusa-fair-map

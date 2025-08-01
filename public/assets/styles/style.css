@@ -255,8 +255,8 @@ footer {
     will-change: transform; /* Optimización para animación */
     transform: translateY(-100%);
     padding: 15px;
-        border-bottom-left-radius: 26px;
-    border-bottom-right-radius: 26px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 #compactNav.visible {

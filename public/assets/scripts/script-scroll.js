@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!ticking) {
             window.requestAnimationFrame(function() {
                 // Mostrar al bajar después de 100px
-                if (currentScroll > 100 && currentScroll > lastScroll) {
+                if (currentScroll > 50 && currentScroll > lastScroll) {
                     compactNav.classList.add('visible');
                 } 
                 // Ocultar al subir al tope

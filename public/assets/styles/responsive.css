@@ -41,3 +41,16 @@
         
     }
 }
+
+@media (max-width: 768px) {
+    header {
+        background-attachment: scroll; /* Mejor rendimiento en móviles */
+        min-height: 80vh; /* Puedes ajustar esto según necesites */
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        min-height: 100vh;
+    }
+}

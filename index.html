@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/public/assets/styles/style.css">
     <link rel="stylesheet" href="/public/assets/styles/responsive.css">
     <!-- Icono -->
-    <link rel="icon" href="/public/assets/images/us-flag-logo.png" type="image/png">
+    <link rel="icon" href="/public/assets/images/icon.png" type="image/png">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -21,10 +21,14 @@
 <body>
     <header>
         <div class="container">
-            <h1>EducationUSA University Fair 2025</h1>
-            <p>¡Descubre el futuro de la educación en el exterior!</p>
+            <!-- <h1>EducationUSA University Fair 2025</h1>
+            <p>¡Descubre el futuro de la educación en el exterior!</p> -->
         </div>
     </header>
+
+    <!-- <div class="down-scroll">
+            <img src="/public/assets/images/scroll.gif" class="scroll-gif">
+        </div> -->
     
     <nav id="compactNav">
         <div class="nav-container">
@@ -32,10 +36,31 @@
             <span class="nav-event-name">EducationUSA 2025</span>
         </div>
     </nav>
-
     <main class="container">
         <section class="map-container">
             <h2 class="map-title"><i>Hyatt Centric Montevideo</i></h2>
+            
+            <!-- Información agregada -->
+            <div class="hotel-info">
+                <p><i class="fas fa-calendar-alt"></i> <strong>Fecha:</strong> 5 de Septiembre de 2025</p>
+                <p><i class="fas fa-clock"></i> <strong>Horario:</strong> 16:30 a 19:30 hrs</p>
+                <p><i class="fas fa-map-marker-alt"></i> <strong>Ubicación:</strong> 
+                    <a href="https://maps.app.goo.gl/QtCMe8tZkQJLdwFe6" target="_blank">Rbla. República del Perú 1479, 11300 Montevideo, Departamento de Montevide</a>
+                </p>
+            </div>
+            
+            <!-- Mapa de Google embebido -->
+            <div class="google-maps-container">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.867855783088!2d-56.14119268816282!3d-34.90976557361319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f816a91871e19%3A0xc748cd5d21898510!2sHyatt%20Centric!5e0!3m2!1ses!2suy!4v1754071278196!5m2!1ses!2suy"
+                    width="600"
+                    height="450"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            
             <img src="public/assets/images/completo-map.png" alt="Plano de la sala del hotel" class="map-image" id="downloadTrigger">
         </section>
 
@@ -50,10 +75,10 @@
     <footer class="container">
     <div class="sponsors-section">
         <div class="sponsors-grid">
-            <img src="/public/assets/images/us-flag-logo.png" alt="Bandera USA" class="sponsor-logo">
             <img src="/public/assets/images/us-embassy-logo.png" alt="US Embassy Logo" class="sponsor-logo"><!-- <a href="https://uy.usembassy.gov/es/" target="_blank" class="sponsor-link">.</a> -->
             <img src="/public/assets/images/edusa-logo.png" alt="EducationUSA Logo" class="sponsor-logo"><!-- <a href="https://educationusa.org.uy/" target="_blank" class="sponsor-link">.</a> -->
             <img src="/public/assets/images/alianza-logo.png" alt="Alianza Logo" class="sponsor-logo"><!-- <a href="https://www.alianza.edu.uy/es/" target="_blank" class="sponsor-link">.</a> -->
+            <img src="/public/assets/images/us-flag-logo.png" alt="Bandera USA" class="sponsor-logo">
         </div>
     </div>
     <cite>&copy; 2025 EducationUSA. Todos los derechos reservados.</cite>

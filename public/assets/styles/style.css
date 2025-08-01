@@ -260,7 +260,8 @@ footer {
     -webkit-backdrop-filter: blur(8px);
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
     z-index: 1000;
-    transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: 0.8s ease-in-out;
     will-change: transform; /* Optimización para animación */
     transform: translateY(-100%);
     padding: 15px;
@@ -270,6 +271,7 @@ footer {
 
 #compactNav.visible {
     transform: translateY(0);
+    transition: .3s ease-in-out;
 }
 
 /* Asegura que el contenido no salte */

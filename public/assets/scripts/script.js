@@ -66,7 +66,7 @@ const legendData = [
         description: "Universidad pública en Laramie, Wyoming",
         url: "https://www.uwyo.edu"
     }
-];
+].sort((a, b) => a.title.localeCompare(b.title)); // Ordenar alfabéticamente por título el array de universidades
 
 // Función para generar la leyenda con enlaces
 function generateLegend() {

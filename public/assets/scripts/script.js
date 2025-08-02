@@ -65,6 +65,36 @@ const legendData = [
         title: "University of Wyoming",
         description: "Universidad pública en Laramie, Wyoming",
         url: "https://www.uwyo.edu"
+    },
+    {
+        logo: "/public/assets/images/logos/fulbright-logo.png",
+        title: "Fulbright Uruguay",
+        description: "Becas de intercambio académico entre Uruguay y EE.UU.",
+        url: "https://fulbright.org.uy/"
+    },
+    {
+        logo: "/public/assets/images/alianza-logo.png",
+        title: "Alianza",
+        description: "Instituto binacional de enseñanza del inglés y cultura.",
+        url: "https://www.alianza.edu.uy/es/"
+    },
+    {
+        logo: "/public/assets/images/us-embassy-logo.png",
+        title: "Embajada de Estados Unidos en Uruguay",
+        description: "Representación diplomática oficial de EE.UU. en Uruguay.",
+        url: "https://uy.usembassy.gov/es/"
+    },
+    {
+        logo: "/public/assets/images/logos/ielts-logo.png",
+        title: "IELTS",
+        description: "Examen internacional de inglés para estudio o trabajo.",
+        url: "https://ielts.org.uy/"
+    },
+    {
+        logo: "/public/assets/images/logos/educationusa-stand-logo.png",
+        title: "EducationUSA",
+        description: "Orientación para estudiar en universidades de Estados Unidos.",
+        url: "https://educationusa.org.uy/"
     }
 ].sort((a, b) => a.title.localeCompare(b.title)); // Ordenar alfabéticamente por título el array de universidades
 

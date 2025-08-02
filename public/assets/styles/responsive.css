@@ -52,6 +52,9 @@
 @media (max-width: 480px) {
     header {
         min-height: 100vh;
-        transform: scale(0.8); /* reduce el tamaño al 80% */
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
     }
 }

@@ -13,6 +13,18 @@ const legendData = [
         url: "https://www.bradley.edu"
     },
     {
+        logo: "/public/assets/images/logos/ieny-college-logo.jpeg",
+        title: "IE New York College",
+        description: "Private college in New York City, New York",
+        url: "https://www.ienyc.edu/"
+    },
+    {
+        logo: "/public/assets/images/logos/rice-university-logo.jpeg",
+        title: "Rice University",
+        description: "Private university at Houston, Texas",
+        url: "https://www.rice.edu/"
+    },
+    {
         logo: "/public/assets/images/logos/iowa-state-university-logo.png",
         title: "Iowa State University of Science and Technology",
         description: "Universidad pública en Ames, Iowa",

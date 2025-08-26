@@ -13,16 +13,16 @@ const legendData = [
         url: "https://www.bradley.edu"
     },
     {
-        logo: "/public/assets/images/logos/ball-state-university-logo.png",
+        logo: "/public/assets/images/logos/ieny-college-logo.jpeg",
         title: "IE New York College",
-        description: "NY",
-        url: ""
+        description: "Private college in New York City, New York",
+        url: "https://www.ienyc.edu/"
     },
     {
-        logo: "/public/assets/images/logos/ball-state-university-logo.png",
+        logo: "/public/assets/images/logos/rice-university-logo.jpeg",
         title: "Rice University",
-        description: "TX",
-        url: ""
+        description: "Private university at Houston, Texas",
+        url: "https://www.rice.edu/"
     },
     {
         logo: "/public/assets/images/logos/iowa-state-university-logo.png",

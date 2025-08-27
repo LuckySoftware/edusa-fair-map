@@ -91,7 +91,7 @@ const legendData = [
         url: "https://www.alianza.edu.uy/es/"
     },
     {
-        logo: "/public/assets/images/us-embassy-logo.png",
+        logo: "/public/assets/images/us-flag-logo.png",
         title: "Embajada de Estados Unidos en Uruguay",
         description: "Representación diplomática oficial de EE.UU. en Uruguay.",
         url: "https://uy.usembassy.gov/es/"

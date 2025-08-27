@@ -235,6 +235,22 @@ footer {
     transition: all 0.3s ease;
 }
 
+.sponsor-logo-embassy {
+    max-width: 100%;
+    height: auto;
+    max-height: 100px;
+    width: auto;
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+
+.sponsor-logo-embassy:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: scale(1.05);
+}
+
 .sponsor-logo:hover {
     filter: grayscale(0%);
     opacity: 1;

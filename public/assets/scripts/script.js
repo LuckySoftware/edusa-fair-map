@@ -49,12 +49,6 @@ const legendData = [
         url: "https://www.scad.edu"
     },
     {
-        logo: "/public/assets/images/logos/southern-utah-university-logo.png",
-        title: "Southern Utah University",
-        description: "Universidad pública en Cedar City, Utah",
-        url: "https://www.suu.edu"
-    },
-    {
         logo: "/public/assets/images/logos/stetson-university-logo.png",
         title: "Stetson University",
         description: "Universidad privada en DeLand, Florida",
